@@ -21,7 +21,7 @@ body{
 }
 nav{
     display:flex;
-    background-color: black;
+    background-color: rgb(253, 253, 253);
     padding:16px 32px;
     border-bottom:0.1px solid rgb(225, 225, 225);
     justify-content:space-between;
@@ -33,7 +33,6 @@ nav{
 }
 .logo{
     font-size:16px;
-    color:white;
     text-transform: uppercase;
     font-weight:bold;
     letter-spacing: 4px;
