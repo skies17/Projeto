@@ -144,6 +144,6 @@ a:hover{
     margin-bottom: 60px;
     display: grid;
     align-self: center;
-    padding-left: 60px;
+    margin-left: 60px;
 }
 } 
