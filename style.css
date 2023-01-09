@@ -45,11 +45,7 @@ nav{
     gap: 40px;
     list-style: none;
 }
-.nav-link-primary:hover, .nav-link-secondary:hover{
-    background-color:var(--light-black);
-    color:var(--black);
-    transition:all 0.5s ease;
-}
+
 a{
     text-decoration: none;
     color:rgb(38, 38, 38);
@@ -57,7 +53,7 @@ a{
     font-weight:200;
 }
 a:hover{
-    color:rgb(122, 120, 120);
+    color:rgb(169, 185, 185);
     transition: all 0.5s ease;
 }
 .nav-link{
