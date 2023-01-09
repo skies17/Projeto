@@ -109,15 +109,6 @@ a:hover{
 .menu{
   display:none;
 }
-/** not yet responsive
-
-/** dark mode switch
-**/
-@media only screen and (max-width: 700px) {
-  .nav-links, .cta{
-    display:none;
-    transition: all 0.5s ease;
-  }
   .menu{
     display:flex;
     transition: all 0.5s ease;
@@ -141,9 +132,5 @@ a:hover{
     background-color:transparent;
   }
 .info{
-    margin-bottom: 60px;
-    display: grid;
-    align-self: center;
-    margin-right: 60px;
-}
+   background-image: url("imagens/relogio.jpg")
 } 
