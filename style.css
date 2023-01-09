@@ -132,5 +132,7 @@ a:hover{
     background-color:transparent;
   }
 .info{
-   background-image: url("imagens/relogio.jpg")
+   background-image: url("imagens/relogio.jpg");
+   height:90vh;
+   width:100%;
 } 
