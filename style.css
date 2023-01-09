@@ -24,8 +24,24 @@ nav{
     background-color: rgb(253, 253, 253);
     padding:16px 32px;
     border-bottom:0.1px solid rgb(225, 225, 225);
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
+    position: relative;
+}
+nav li a:hover,
+nav li a.active  {
+ color:rgb(169, 185, 185);
+
+}
+
+nav li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color:rgb(169, 185, 185)  ;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
 }
 .nav-main{
     display:flex;
