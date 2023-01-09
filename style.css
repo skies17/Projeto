@@ -142,5 +142,8 @@ a:hover{
   .nav-mobile li {
     margin: 8px 0;
   }
-
+.info{
+    margin-bottom: 60px;
+    display: grid;
+}
 } 
