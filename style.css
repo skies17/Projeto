@@ -109,6 +109,15 @@ a:hover{
 .menu{
   display:none;
 }
+/** not yet responsive
+
+/** dark mode switch
+**/
+@media only screen and (max-width: 700px) {
+  .nav-links, .cta{
+    display:none;
+    transition: all 0.5s ease;
+  }
   .menu{
     display:flex;
     transition: all 0.5s ease;
@@ -132,14 +141,9 @@ a:hover{
     background-color:transparent;
   }
 .info{
-   background-image: url("imagens/relogio12.jpg");
-   height:90vh;
-   width:100%;
-   background-size: cover;
-   background-position: top 25% right 0%;
-   padding: 0 80px;
-   display:flex;
-   flex-direction: column;
-   align-items: flex-start;
-   justify-content: center;
+    margin-bottom: 60px;
+    display: grid;
+    align-self: center;
+    margin-right: 60px;
+}
 } 
