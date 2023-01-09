@@ -24,7 +24,7 @@ nav{
     background-color: rgb(253, 253, 253);
     padding:16px 32px;
     border-bottom:0.1px solid rgb(225, 225, 225);
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
 }
 .nav-main{
