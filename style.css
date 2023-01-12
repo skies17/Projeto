@@ -12,7 +12,6 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-size:15px;
 }
 body{
     margin:0;
@@ -27,6 +26,10 @@ nav{
     justify-content:space-between;
     align-items:center;
     position: relative;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 nav li a:hover,
 nav li a.active  {
@@ -37,6 +40,7 @@ nav li a.active  {
 .nav-main{
     display:flex;
     gap:32px;
+
 }
 .logo{
     font-size:16px;
@@ -96,10 +100,10 @@ a:hover{
 }
 
 .btn{
-    padding:8px 16px;
+    padding:15px 50px;
     border-radius:50px;
     border:none;
-    
+    margin-bottom:100px ;
 }
 
 .btn-primary{
@@ -116,41 +120,43 @@ a:hover{
 .menu{
   display:none;
 }
-/** not yet responsive
 
-/** dark mode switch
-**/
-@media only screen and (max-width: 700px) {
-  .nav-links, .cta{
-    display:none;
-    transition: all 0.5s ease;
-  }
-  .menu{
-    display:flex;
-    transition: all 0.5s ease;
-  }
-  .menu:hover>.nav-mobile{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    position:absolute;
-    top:0;
-    left:0;
-    list-style: none;
-    transition: all 0.5s ease;
-    width:100vw;
-    
-  }
-
-  .dropdown:hover>ul{
-    position:relative;
-    background-color:transparent;
-  }
 .info{
-    margin-bottom: 60px;
-    display: grid;
-    align-self: center;
-    margin-right: 60px;
+    background-image: url(imagens/44.png);
+    height: 91vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    color: white;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
-} 
+
+.info h1{
+    padding-bottom: 15px;
+    font-size: 27px;
+}
+.info p{
+    padding-bottom: 15px;
+}
+
+.info2{
+    margin-top: 30px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.info2 h2{
+    font-size:45px ;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-blend-mode: multiply,multiply;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
