@@ -160,6 +160,7 @@ a:hover{
     -webkit-text-fill-color: transparent;
 }
 .info2 p{
-    padding-bottom: 15px;
+    padding: 0 80px;
+    padding-bottom: 30px;
 }
 
