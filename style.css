@@ -159,4 +159,7 @@ a:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.info2 p{
+    padding-bottom: 15px;
+}
 
